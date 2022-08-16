@@ -1,0 +1,6 @@
+aws:
+  account: "123456789012"
+  region: us-east-1
+chart_name: argo-cd
+chart_repo: https://argoproj.github.io/argo-helm #https://charts.bitnami.com/bitnami
+env: dev
