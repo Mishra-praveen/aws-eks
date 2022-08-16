@@ -1,5 +1,5 @@
 
-# Welcome to your CDK Python project!
+# Welcome to your AWS-EKS-CDK Python project!
 
 This code can be used to setup an EKS cluster using CDK development with Python.
 
