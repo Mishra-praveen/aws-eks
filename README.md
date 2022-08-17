@@ -3,15 +3,6 @@
 
 This code can be used to setup an EKS cluster using CDK development with Python.
 
-The `cdk.json` file tells the CDK Toolkit how to execute your app.
-
-This project is set up like a standard Python project.  The initialization
-process also creates a virtualenv within this project, stored under the `.venv`
-directory.  To create the virtualenv it assumes that there is a `python3`
-(or `python` for Windows) executable in your path with access to the `venv`
-package. If for any reason the automatic creation of the virtualenv fails,
-you can create the virtualenv manually.
-
 To manually create a virtualenv on MacOS and Linux:
 
 ```
@@ -40,7 +31,7 @@ $ pip install -r requirements.txt
 At this point you can now synthesize the CloudFormation template for this code.
 
 ```
-$ cdk synth
+$ cdk synth --all --profile my-profile
 ```
 
 To add additional dependencies, for example other CDK libraries, just add
